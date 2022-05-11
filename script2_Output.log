@@ -1,0 +1,35 @@
+1)System version : 20.04.1-Ubuntu SMP Sat Mar 20 13:40:25 UTC 2021
+
+2)Network interfaces :
+eno1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 5c:26:0a:3e:bd:2e  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 20  memory 0xf5400000-f5420000  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Локальная петля (Loopback))
+        RX packets 1942  bytes 146656 (146.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1942  bytes 146656 (146.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.109.225  netmask 255.255.255.0  broadcast 192.168.109.255
+        inet6 fe80::2d0b:4703:f8e4:2e48  prefixlen 64  scopeid 0x20<link>
+        ether 88:9f:fa:69:17:40  txqueuelen 1000  (Ethernet)
+        RX packets 14233  bytes 17536409 (17.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 6739
+        TX packets 8757  bytes 1289877 (1.2 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 17  
+
+3)Firewall conf: ufw 0.36
+Copyright 2008-2015 Canonical Ltd.
+
+4)Gernic version: 
+ Linux version 5.8.0-48-generic (buildd@lgw01-amd64-008) (gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #54~20.04.1-Ubuntu SMP Sat Mar 20 13:40:25 UTC 2021
